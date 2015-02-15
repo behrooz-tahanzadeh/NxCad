@@ -10,9 +10,9 @@ using Autodesk.AutoCAD.DatabaseServices;
 using Autodesk.AutoCAD.Windows;
 using Autodesk.AutoCAD.EditorInput;
 
-[assembly: CommandClass(typeof(ir.tahanzadeh.app.NxAutocad.Main))]
+[assembly: CommandClass(typeof(ir.btapp.NxCad.Main))]
 
-namespace ir.tahanzadeh.app.NxAutocad
+namespace ir.btapp.NxCad
 {
     public class Main
     {

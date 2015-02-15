@@ -10,9 +10,9 @@ using Autodesk.AutoCAD.DatabaseServices;
 using Autodesk.AutoCAD.Windows;
 using Autodesk.AutoCAD.EditorInput;
 
-[assembly: CommandClass(typeof(ir.tahanzadeh.app.NxAutocad.Commands.NxAbout))]
+[assembly: CommandClass(typeof(ir.btapp.NxCad.Commands.NxAbout))]
 
-namespace ir.tahanzadeh.app.NxAutocad.Commands
+namespace ir.btapp.NxCad.Commands
 {
     public class NxAbout
     {
@@ -23,7 +23,7 @@ namespace ir.tahanzadeh.app.NxAutocad.Commands
             Editor editor = Application.DocumentManager.MdiActiveDocument.Editor;
 
             editor.WriteMessage("--------------------------------------------\n");
-            editor.WriteMessage("NxAutocad:\n");
+            editor.WriteMessage("NxCad:\n");
             editor.WriteMessage("Developed by Behrooz Tahanzadeh (b-tz.com)\n");
             editor.WriteMessage("At Next Office (nextoffice.ir)\n\n");
             editor.WriteMessage("feb 2015\n");

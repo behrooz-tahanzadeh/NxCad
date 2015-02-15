@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NxAutocad")]
+[assembly: AssemblyTitle("NxCad")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("b-tz.com")]
-[assembly: AssemblyProduct("NxAutocad")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("NxCad")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("66e8e5c2-02bb-4379-85ee-10d95ce2321d")]
+[assembly: Guid("6b75ae08-8d2e-4d3e-a71d-819ae435d308")]
 
 // Version information for an assembly consists of the following four values:
 //
